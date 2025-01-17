@@ -51,7 +51,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router";
-import "./Home.css"; // Import the CSS file
+import "./Home.css";
 
 const Home = () => {
   const [roomName, setRoomName] = useState<string>("room101");
